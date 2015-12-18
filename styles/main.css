@@ -22,14 +22,14 @@ html, body {
 }
 
 .slide {
-	padding: 50px;
-	background-color: #040200;
 	position: relative;
 	display: flex;
 	flex-flow: row wrap;
 	box-sizing: border-box;
+	padding: 50px;
 	width: 100%;
 	height: 100%;
+	background-color: #040200;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -38,20 +38,20 @@ html, body {
 
 .slide__text {
 	margin: auto;
+	width: 100%;
 	text-align: center;
 	text-shadow: 1px 1px 5px black;
 	font-weight: bold;
 	font-size: 4vw;
-	width: 100%;
 	font-family: 'Open Sans';
 }
 
 
 .slide-1 {
-	background-color: #9e0076;
-	color: #34df0e;
 	padding-right: 200px;
 	padding-left: 200px;
+	background-color: #9e0076;
+	color: #34df0e;
 }
 
 .slide-1 .slide__text {
