@@ -1,0 +1,72 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto';
+}
+
+.fotorama {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.fotorama__wrap,
+.fotorama__stage__frame,
+.fotorama__stage {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.slide {
+	position: relative;
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	color: #fff;
+}
+
+.slide__text {
+	margin: auto;
+	text-align: center;
+	text-shadow: 1px 1px 5px black;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+
+.slide-1 {
+	background-color: #9e0076;
+	color: #34df0e;
+}
+
+.slide-2 {
+	background-image: url(../images/fish-and-man.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.slide-3 {
+	background-image: url(../images/cat-blogun.gif);
+}
+
+.slide-4 {
+	background-image: url(../images/enormous-shaverma.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.slide-5 {
+}
+
+.slide-6 {
+}
+
+.slide-7 {
+}
