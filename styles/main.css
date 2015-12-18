@@ -41,7 +41,8 @@ html, body {
 	text-align: center;
 	text-shadow: 1px 1px 5px black;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 4vw;
+	width: 100%;
 	font-family: 'Open Sans';
 }
 
@@ -49,27 +50,60 @@ html, body {
 .slide-1 {
 	background-color: #9e0076;
 	color: #34df0e;
+	padding-right: 200px;
+	padding-left: 200px;
 }
+
+.slide-1 .slide__text {
+	font-size: 3vw;
+}
+
+.slide-1 .horse {
+	right: -260px;
+	bottom: -100px;
+}
+
 
 .slide-2 {
 	background-image: url(../images/fish-and-man.jpg);
 }
+
+.slide-2 .horse {
+	right: -230px;
+}
+
 
 .slide-3 {
 	background-image: url(../images/cat-blogun.gif);
 	background-size: contain;
 }
 
+.slide-3 .horse {
+	right: -210px;
+}
+
+
 .slide-4 {
 	background-image: url(../images/enormous-shaverma.jpg);
 	background-size: contain;
 }
+.slide-4 .horse {
+	right: -190px;
+}
+
 
 .slide-5 {
+	background-image: url(../images/andrey-beside-the-sea.jpg);
+}
+.slide-5 .horse {
+	right: -150px;
 }
 
 .slide-6 {
 	background-image: url(../images/interview.jpg);
+}
+.slide-6 .horse {
+	right: -120px;
 }
 
 .slide-6 .slide__text {
@@ -82,8 +116,8 @@ html, body {
 
 .horse {
 	position: absolute;
-	right: -20px;
-	bottom: -50px;
+	right: 0;
+	bottom: -20px;
 	width: 300px;
 	height: 300px;
 }
